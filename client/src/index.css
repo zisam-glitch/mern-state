@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: .2px;
+
+}
+.idpc-input{
+    width: 100%;
+    outline: 1px solid;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.idpc-input:focus{
+    outline: 1px solid #0062d1;
+}
+
+.idpc-select {
+    width: 100%;
+    outline: 1px solid;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    margin-top: 24px;
+}
